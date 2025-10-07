@@ -21,5 +21,4 @@ B站视频介绍：（制作中）
 
 **Windows**
 
-CUI:`./build.bat`  
-图形模式：双击运行`build.bat`
+`build.bat`
