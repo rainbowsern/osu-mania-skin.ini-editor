@@ -18,7 +18,7 @@ echo "构建完成：bin/skin_ini_editor"
 
 #win版本
 
-if commnad -v x86_64-w64-mingw32-gcc >/dev/null 2>&1; then
+if command -v x86_64-w64-mingw32-gcc >/dev/null 2>&1; then
 
     echo "构建windows版本"
 
@@ -34,7 +34,6 @@ if commnad -v x86_64-w64-mingw32-gcc >/dev/null 2>&1; then
 else
     echo "错误：未找到mingw交叉编译器，跳过windows构建"
     echo "在Ubuntu/Debian上可以运行：sudo apt install mingw-w64来安装"
-
 fi
 
 echo "构建完成"
