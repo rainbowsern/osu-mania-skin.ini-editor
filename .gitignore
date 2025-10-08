@@ -1,6 +1,0 @@
-# 编译生成文件
-bin/
-obj/
-*.o
-*.exe
-.gitigonre
